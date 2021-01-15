@@ -106,3 +106,70 @@ prevoirAge();
 // (function() {console.log("Je suis une fonction anonyme")})();
 
 */
+
+//                                      FONCTIONS FLECHEES
+
+/*
+// let maFonction = function(){
+//     console.log("test");
+// }
+
+// maFonction();
+
+// let maFonction = (parametre, autreParametre) => {
+//     console.log("test");
+// }
+
+let maFonction = () => console.log("test");
+
+maFonction();
+*/
+
+//                                      LES CLOSURES (FERMERTURES)
+// Permet de sauvegarder une variable locale a l'interieur d'une fonction
+
+
+/*
+function bonjour(prenom){
+
+    let resultat ="Bonjour " + prenom; // variable locale
+    let maClosure = () => console.log(resultat);
+    return maClosure;
+
+}
+
+function bonjour_bis(prenom){
+
+    let resultat ="Bonjour " + prenom; // variable locale
+    console.log(resultat);
+
+}
+
+let maFonction = bonjour('Sophie');
+maFonction();
+
+bonjour_bis("Marceau");
+
+*/
+
+/*
+function timer(){
+    let secondes = 0;
+
+    let maClosure = () => {
+        return ++secondes;
+    }
+    return maClosure;
+}
+
+let monTimer = timer();
+console.log(monTimer());
+console.log(monTimer());
+console.log(monTimer());
+console.log(monTimer());
+
+let monDeuxiemeTimer = timer();
+console.log(monDeuxiemeTimer());
+console.log(monTimer());
+*/
+
