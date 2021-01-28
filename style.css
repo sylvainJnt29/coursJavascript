@@ -1,3 +1,7 @@
+/* 
+
+L'exercice final ce fait sans le css
+
 html, body {
   padding: 0;
   margin: 0;
@@ -7,7 +11,7 @@ html, body {
 
 header {
   background-color: #c9d1d3;
-  text-align: center;
+  text-align: center; 
   padding: 15px;
   color: white;
 }
@@ -16,3 +20,9 @@ header {
   width: 800px;
   margin: 0 auto;
 }
+
+.ma_class {
+  background: #e65c00;
+background: -webkit-linear-gradient(to right, #F9D423, #e65c00);
+background: linear-gradient(to right, #F9D423, #e65c00);
+} */
