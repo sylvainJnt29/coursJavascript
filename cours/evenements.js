@@ -31,7 +31,7 @@ button.onmouseout = () => {
 
 //                                      Via le gestionnaire d'evenements
 
-
+/*
 let a = document.querySelector('a');
 let button = document.querySelector('button');
 
@@ -56,3 +56,43 @@ button.addEventListener('mouseout', () =>{
 });
 
 button.removeEventListener('mouseout', backgroundWhite);
+*/
+
+//                                      Gerer la propagation des evenements
+
+/*
+let article = document.querySelector('article');
+let h1      = document.querySelector('h1');
+
+article.addEventListener('click', () => {
+    alert('article cliqué');
+});
+
+h1.addEventListener('click', (e) => {
+    alert('titre cliqué');
+    e.stopPropagation();
+});
+*/
+
+
+//                                      Planifier l'execution d'un script
+/*
+// setTimeout
+// setTimeout("alert('Bonjour !')", 3000);
+
+let timer = setTimeout("alert('Bonjour !')", 3000);
+clearTimeout(timer); 
+
+// setInterval
+//setInterval("alert('Bonjour !')", 5000);
+
+let interval = setInterval("alert('Bonjour !')", 5000);
+clearInterval(interval);
+*/
+
+
+
+
+
+
+// https://developer.mozilla.org/fr/docs/Web/Events
