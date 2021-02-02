@@ -26,3 +26,10 @@ header {
 background: -webkit-linear-gradient(to right, #F9D423, #e65c00);
 background: linear-gradient(to right, #F9D423, #e65c00);
 } */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  background-color: #0f8ec8d0;
+}

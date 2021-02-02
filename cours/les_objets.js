@@ -206,15 +206,8 @@ console.log(autres);
 */
 
 
-
-
-
-
-
-
-
 /*
-//                                      PRISE DE NOTE DE DIN DE COURS
+//                                      PRISE DE NOTE DE FIN DE COURS
 
 
 L'objet Set
@@ -345,3 +338,4 @@ Retourner un élément
     monObjet.get(objet1);
 */
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
