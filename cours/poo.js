@@ -214,7 +214,7 @@ lanlan.voler();
 
 
 class Utilisateur {
-    constructor(prenom, nom,email){
+    constructor(prenom, nom, email){
         this.prenom = prenom;
         this.nom = nom;
         this.email = email;
@@ -237,3 +237,4 @@ var loic = new Utilisateur("loic","raison","loicatoujoursraison@sfr.fr");
 console.log(loic.nomComplet);
 loic.nomComplet= "Alex Térieur";
 console.log(loic.nomComplet);
+
