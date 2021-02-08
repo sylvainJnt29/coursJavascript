@@ -4,7 +4,7 @@ body {
   height: 100%;
   min-width: 500px;
 }
-h1 {
+h1{
   font-size: 3em;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.3em;
@@ -13,5 +13,15 @@ h1 {
   display: block;
   text-align: center;
   text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+p{
+  font-size: 3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  color: white;
+  display: block;
+  text-align: center;
   text-decoration-color: goldenrod;
 }
