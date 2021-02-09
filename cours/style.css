@@ -33,3 +33,10 @@ body {
   font-family: arial;
   background-color: #0f8ec8d0;
 }
+h1 {
+  color: #272343;
+}
+
+#price {
+  font-size: 4em;
+}

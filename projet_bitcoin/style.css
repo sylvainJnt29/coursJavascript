@@ -1,0 +1,19 @@
+body {
+  font-family: arial;
+  background-color: #0f8ec8d0;
+}
+h1 {
+  color: #ecbc1e;
+}
+#price {
+  font-size: 8em;
+}
+fieldset{
+  display: flex;
+  margin: 15%;
+  background-color:rgba(35, 124, 165, 0.664) ;
+  justify-content: center;
+}
+p{
+  font-size: 2em;
+}
