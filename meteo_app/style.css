@@ -1,0 +1,45 @@
+/*
+body {
+  font-family: arial;
+  background-color: #0f8ec8d0;
+}
+h1 {
+  color: #ecbc1e;
+}
+#price {
+  font-size: 8em;
+}
+fieldset{
+  display: flex;
+  margin: 15%;
+  background-color:rgba(35, 124, 165, 0.664) ;
+  justify-content: center;
+}
+p{
+  font-size: 2em;
+}
+*/
+
+
+/* ****************************************************************** */
+
+html, body {
+  background: #2980B9;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  min-width: 400px;
+  margin-top: 15%;
+}
+
+#ville {
+  text-transform: capitalize;
+}
+
+#temperature {
+  font-size: 4em;
+}
+
+#changer {
+  background: rgba(178, 223, 251, .3);
+  cursor: pointer;
+}
