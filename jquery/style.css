@@ -1,0 +1,22 @@
+body {
+  font-family: arial;
+  background-color: #0f8ec8d0;
+}
+h1 {
+  color: #ecbc1e;
+  font-size: 4em;
+}
+p {
+  font-size: 2em;
+}
+article{
+  flex: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+}
+.important {
+  font-size: 1.4em;
+  text-decoration: underline;
+  font-weight: bold;
+}
